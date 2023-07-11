@@ -1,0 +1,115 @@
+.imagenesinicio {
+  display: flex;
+  width: 100%;
+}
+
+.contenedorlogo {
+  z-index: 1;
+  width: 50%;
+  height: auto;
+
+  margin-top: -2%;
+}
+.logo {
+  width: 90%;
+  height: auto;
+}
+.titulo {
+  width: 70%;
+  height: auto;
+  margin-left: 20%;
+}
+.contenedortitulo {
+  margin-top: 7%;
+  margin-left: 10%;
+}
+
+.boton:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(68, 68, 68);
+  transition: all 0.2s ease;
+}
+.contenedor2 {
+  display: flex;
+  height: 80vh;
+}
+.tarjetas {
+  width: 90%;
+  margin: auto;
+}
+.contenedorlink {
+  margin-top: 40px;
+  margin-left: 20%;
+}
+.verproductos {
+  background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+  color: white;
+  border-radius: 10px;
+  padding: 3%;
+  text-decoration: none;
+}
+.verproductos:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(68, 68, 68);
+  transition: all 0.2s ease;
+}
+.botonpuntos {
+  background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+  margin-top: 8px;
+  width: 16rem;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 0px;
+}
+.botonNoCanje {
+  background: rgb(219, 219, 219);
+  margin-top: 8px;
+  width: 240px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: none;
+  color: rgb(57, 57, 57);
+  font-size: 18px;
+  margin-left: 0px;
+}
+.botonpuntos:hover {
+  box-shadow: 0 0 10px 5px rgba(123, 123, 123, 0.7);
+}
+/* boton donde accedo a los puntos del usuario */
+.botonUser {
+  font-size: 20px;
+  width: 10px;
+  height: 0px;
+  background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+  border-radius: 8px;
+}
+
+.imagentarjetas {
+  width: 70%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.contenedorimagentarjetas {
+  width: 100%;
+  background: linear-gradient(102.47deg, #176feb80 40%, #ff80ff80 60%);
+  height: 320px;
+  position: relative;
+  margin-top: 7%;
+}
+.contenedordesplegable {
+  right: 20%;
+  margin-top: 2%;
+  position: absolute;
+}
+.si {
+  background: #176feb;
+}
+.no {
+  background: #ff80ff;
+}
